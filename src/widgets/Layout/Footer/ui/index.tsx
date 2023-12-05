@@ -2,6 +2,7 @@ import s from "./styles.module.scss";
 import logo from '../../../../shared/assets/logo.png'
 import Image from 'next/image'
 import { SocialMedia } from "@/shared/socialMedia";
+import { LanguageButton } from "@/shared/languageButton";
 
 export const Footer = () => {
 
@@ -71,14 +72,17 @@ export const Footer = () => {
             )}
           </div>
         </div>
-        <div>
-          <div className="flex gap-[120px] mt-7 text-[#717171]">
+        <div className="flex justify-between mt-7">
+          <div className="flex gap-[120px]  text-[#717171]">
             <p>© 2021 Getdesk.</p>
             <ul className="flex gap-16">
               <li>Конфиденциальность</li>
               <li>Условия использования</li>
               <li>Реквизиты компании</li>
             </ul>
+          </div>
+          <div>
+            <LanguageButton />
           </div>
         </div>
       </div>
