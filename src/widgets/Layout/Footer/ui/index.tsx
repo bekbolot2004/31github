@@ -75,7 +75,7 @@ export const Footer = () => {
         <div className="flex justify-between mt-7">
           <div className="flex gap-[120px]  text-[#717171]">
             <p>© 2021 Getdesk.</p>
-            <ul className="flex gap-16">
+            <ul className="flex gap-16 list-disc">
               <li>Конфиденциальность</li>
               <li>Условия использования</li>
               <li>Реквизиты компании</li>
