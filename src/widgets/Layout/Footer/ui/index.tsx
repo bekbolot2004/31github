@@ -3,6 +3,7 @@ import logo from '../../../../shared/assets/logo.png'
 import Image from 'next/image'
 import { SocialMedia } from "@/shared/socialMedia";
 import { LanguageButton } from "@/shared/languageButton";
+import { CurrencyButton } from "@/shared/currencyButton/ui";
 
 export const Footer = () => {
 
@@ -81,8 +82,9 @@ export const Footer = () => {
               <li>Реквизиты компании</li>
             </ul>
           </div>
-          <div>
+          <div className="flex items-center gap-5">
             <LanguageButton />
+            <CurrencyButton />
           </div>
         </div>
       </div>
