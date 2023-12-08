@@ -1,10 +1,15 @@
 import Image from 'next/image'
 import language from '../../assets/icons/language.svg'
 
-export const LanguageButton = () => {
+
+interface Props {
+  redbutton?: true | undefined
+}
+
+export const LanguageButton = ({ redbutton }: Props) => {
 
   return (
-    <div className='w-11 h-11 flex justify-center items-center rounded-full bg-[#717171]'>
+    <div className={`${redbutton ? "bg-[#717171]" : "bg-red"} w-11 h-11 flex justify-center items-center rounded-full `} >
       <Image
         src={language}
         width={20}
