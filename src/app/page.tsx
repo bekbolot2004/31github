@@ -1,3 +1,4 @@
+import MainPage from '@/pages/Main'
 import { Layout } from '@/widgets/Layout'
 import { Footer } from '@/widgets/Layout/Footer'
 import { Header } from '@/widgets/Layout/Header'
@@ -7,9 +8,7 @@ export default function Home() {
   return (
     <div>
       <Layout>
-        <div>
-          efe
-        </div>
+        <MainPage />
       </Layout>
     </div>
   )

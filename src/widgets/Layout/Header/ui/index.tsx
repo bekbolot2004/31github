@@ -8,7 +8,7 @@ import { CurrencyButton } from "@/shared/currencyButton/ui";
 
 export const Header = () => {
   return (
-    <header className=" bg-white h-[125px]">
+    <header className="fixed top-0 w-screen  h-[125px]">
       <div className="container mx-auto p-4">
         <div className="flex justify-between">
           <div>

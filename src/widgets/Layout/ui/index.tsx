@@ -15,7 +15,7 @@ export const Layout = ({ children }: Props) => {
   return (
     <div>
       <Header />
-      <div className=" h-[70vh]">
+      <div className="min-h-[70vh]">
         {children}
       </div>
       <Footer />
